@@ -59,6 +59,9 @@
                                 <rect key="frame" x="35" y="279" width="323" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Editar Foto"/>
+                                <connections>
+                                    <action selector="tappedEditPictureButton:" destination="yws-rh-bS2" eventType="touchUpInside" id="Pa0-Sb-Qp6"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KbB-Y9-0dz">
                                 <rect key="frame" x="35" y="322" width="323" height="21"/>
@@ -75,6 +78,9 @@
                                 <rect key="frame" x="35" y="396" width="323" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Adicionar"/>
+                                <connections>
+                                    <action selector="tappedAddButton:" destination="yws-rh-bS2" eventType="touchUpInside" id="mZS-Zl-Wil"/>
+                                </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="qPM-c3-Ddk">
                                 <rect key="frame" x="0.0" y="451" width="393" height="318"/>
@@ -106,6 +112,14 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" image="person" catalog="system" id="eWQ-S0-mTn"/>
+                    <connections>
+                        <outlet property="addButton" destination="Bzz-ni-6U0" id="B0X-mz-DAp"/>
+                        <outlet property="editPictureButton" destination="2jI-ZV-hOV" id="SQ0-L0-PN0"/>
+                        <outlet property="nameLabel" destination="KbB-Y9-0dz" id="Zt1-6J-QBG"/>
+                        <outlet property="nameTextField" destination="tgN-zg-BMK" id="cRt-2b-O43"/>
+                        <outlet property="profileImageView" destination="XYU-Mz-WMT" id="CZx-dl-EP7"/>
+                        <outlet property="tableView" destination="qPM-c3-Ddk" id="SN9-jt-ydW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o28-4T-Gsg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

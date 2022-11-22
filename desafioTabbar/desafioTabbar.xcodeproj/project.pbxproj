@@ -16,6 +16,9 @@
 		382C4618292D681B00672A9D /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382C4617292D681B00672A9D /* TabBarController.swift */; };
 		382C461A292D6CEF00672A9D /* Tela02VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382C4619292D6CEF00672A9D /* Tela02VC.swift */; };
 		382C461C292D6D1500672A9D /* Tela03VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382C461B292D6D1500672A9D /* Tela03VC.swift */; };
+		384C61D6292D73CF00FD5711 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384C61D4292D73CF00FD5711 /* CustomTableViewCell.swift */; };
+		384C61D7292D73CF00FD5711 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 384C61D5292D73CF00FD5711 /* CustomTableViewCell.xib */; };
+		384C61DA292D76DF00FD5711 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384C61D9292D76DF00FD5711 /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		382C4617292D681B00672A9D /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		382C4619292D6CEF00672A9D /* Tela02VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela02VC.swift; sourceTree = "<group>"; };
 		382C461B292D6D1500672A9D /* Tela03VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela03VC.swift; sourceTree = "<group>"; };
+		384C61D4292D73CF00FD5711 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		384C61D5292D73CF00FD5711 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		384C61D9292D76DF00FD5711 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,8 @@
 		382C4602292D664E00672A9D /* desafioTabbar */ = {
 			isa = PBXGroup;
 			children = (
+				384C61D8292D768900FD5711 /* Model */,
+				384C61D3292D73AB00FD5711 /* Cell */,
 				382C4603292D664E00672A9D /* AppDelegate.swift */,
 				382C4605292D664E00672A9D /* SceneDelegate.swift */,
 				382C4609292D664E00672A9D /* Main.storyboard */,
@@ -74,6 +82,23 @@
 				382C461B292D6D1500672A9D /* Tela03VC.swift */,
 			);
 			path = desafioTabbar;
+			sourceTree = "<group>";
+		};
+		384C61D3292D73AB00FD5711 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				384C61D4292D73CF00FD5711 /* CustomTableViewCell.swift */,
+				384C61D5292D73CF00FD5711 /* CustomTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		384C61D8292D768900FD5711 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				384C61D9292D76DF00FD5711 /* Profile.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +161,7 @@
 			files = (
 				382C4610292D664F00672A9D /* LaunchScreen.storyboard in Resources */,
 				382C460D292D664F00672A9D /* Assets.xcassets in Resources */,
+				384C61D7292D73CF00FD5711 /* CustomTableViewCell.xib in Resources */,
 				382C460B292D664E00672A9D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,8 +174,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				382C4608292D664E00672A9D /* Tela01VC.swift in Sources */,
+				384C61DA292D76DF00FD5711 /* Profile.swift in Sources */,
 				382C4618292D681B00672A9D /* TabBarController.swift in Sources */,
 				382C461A292D6CEF00672A9D /* Tela02VC.swift in Sources */,
+				384C61D6292D73CF00FD5711 /* CustomTableViewCell.swift in Sources */,
 				382C461C292D6D1500672A9D /* Tela03VC.swift in Sources */,
 				382C4604292D664E00672A9D /* AppDelegate.swift in Sources */,
 				382C4606292D664E00672A9D /* SceneDelegate.swift in Sources */,
