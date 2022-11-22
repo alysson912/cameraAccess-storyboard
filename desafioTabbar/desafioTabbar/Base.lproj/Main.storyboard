@@ -1,24 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vJq-27-hrR">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Item 2-->
+        <scene sceneID="8Wd-bB-shO">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController id="UX5-zq-U6r" customClass="Tela02VC" customModule="desafioTabbar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BQH-cP-ylJ">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="bFM-zD-Kn6"/>
+                        <color key="backgroundColor" systemColor="systemPinkColor"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" image="phone" catalog="system" id="UTN-j8-fW5"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DZU-5w-QTl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-877" y="230"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="oht-Hx-wUg">
+            <objects>
+                <viewController id="fO7-nr-39Q" customClass="Tela03VC" customModule="desafioTabbar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0oB-xL-zOm">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="QkL-rU-BV8"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="trash" catalog="system" id="i2B-5a-sJj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TKc-Zy-xqm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-231" y="-109"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="BfL-Yu-rwJ">
+            <objects>
+                <viewController id="yws-rh-bS2" customClass="Tela01VC" customModule="desafioTabbar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RhX-FT-RFa">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="XYU-Mz-WMT">
+                                <rect key="frame" x="129" y="119.99999999999999" width="135" height="133.66666666666669"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="135" id="V48-Js-GhJ"/>
+                                    <constraint firstAttribute="height" constant="135" id="YG9-pi-MrK"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2jI-ZV-hOV">
+                                <rect key="frame" x="35" y="279" width="323" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Editar Foto"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KbB-Y9-0dz">
+                                <rect key="frame" x="35" y="322" width="323" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Digite o nome " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tgN-zg-BMK">
+                                <rect key="frame" x="35" y="354" width="323" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bzz-ni-6U0">
+                                <rect key="frame" x="35" y="396" width="323" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Adicionar"/>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="qPM-c3-Ddk">
+                                <rect key="frame" x="0.0" y="451" width="393" height="318"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kbK-cF-ouD"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2jI-ZV-hOV" firstAttribute="centerX" secondItem="kbK-cF-ouD" secondAttribute="centerX" id="3pr-zr-N09"/>
+                            <constraint firstItem="kbK-cF-ouD" firstAttribute="trailing" secondItem="2jI-ZV-hOV" secondAttribute="trailing" constant="35" id="7js-Wo-BhM"/>
+                            <constraint firstItem="qPM-c3-Ddk" firstAttribute="top" secondItem="Bzz-ni-6U0" secondAttribute="bottom" constant="20" id="AWm-Y3-vFw"/>
+                            <constraint firstItem="2jI-ZV-hOV" firstAttribute="leading" secondItem="kbK-cF-ouD" secondAttribute="leading" constant="35" id="C5W-GM-7dv"/>
+                            <constraint firstItem="tgN-zg-BMK" firstAttribute="leading" secondItem="kbK-cF-ouD" secondAttribute="leading" constant="35" id="Ckp-BF-Rxf"/>
+                            <constraint firstItem="Bzz-ni-6U0" firstAttribute="leading" secondItem="kbK-cF-ouD" secondAttribute="leading" constant="35" id="KDh-sE-4Gk"/>
+                            <constraint firstItem="kbK-cF-ouD" firstAttribute="bottom" secondItem="qPM-c3-Ddk" secondAttribute="bottom" id="OCg-1f-nB0"/>
+                            <constraint firstItem="Bzz-ni-6U0" firstAttribute="top" secondItem="tgN-zg-BMK" secondAttribute="bottom" constant="8" symbolic="YES" id="TVI-jN-gYk"/>
+                            <constraint firstItem="KbB-Y9-0dz" firstAttribute="top" secondItem="2jI-ZV-hOV" secondAttribute="bottom" constant="8" symbolic="YES" id="V0P-0t-ak5"/>
+                            <constraint firstItem="KbB-Y9-0dz" firstAttribute="leading" secondItem="kbK-cF-ouD" secondAttribute="leading" constant="35" id="VCl-II-weQ"/>
+                            <constraint firstItem="kbK-cF-ouD" firstAttribute="trailing" secondItem="KbB-Y9-0dz" secondAttribute="trailing" constant="35" id="bCy-WL-vFg"/>
+                            <constraint firstItem="tgN-zg-BMK" firstAttribute="top" secondItem="KbB-Y9-0dz" secondAttribute="bottom" constant="11" id="d5A-Vd-1cj"/>
+                            <constraint firstItem="qPM-c3-Ddk" firstAttribute="leading" secondItem="kbK-cF-ouD" secondAttribute="leading" id="dQa-NY-MkF"/>
+                            <constraint firstItem="kbK-cF-ouD" firstAttribute="trailing" secondItem="tgN-zg-BMK" secondAttribute="trailing" constant="35" id="fTu-BW-p9c"/>
+                            <constraint firstItem="XYU-Mz-WMT" firstAttribute="top" secondItem="kbK-cF-ouD" secondAttribute="top" constant="60" id="gjR-nY-0Kt"/>
+                            <constraint firstItem="XYU-Mz-WMT" firstAttribute="centerX" secondItem="kbK-cF-ouD" secondAttribute="centerX" id="pwL-2L-abR"/>
+                            <constraint firstItem="2jI-ZV-hOV" firstAttribute="top" secondItem="XYU-Mz-WMT" secondAttribute="bottom" constant="25" id="qyw-Sq-neZ"/>
+                            <constraint firstItem="kbK-cF-ouD" firstAttribute="trailing" secondItem="qPM-c3-Ddk" secondAttribute="trailing" id="tWX-ly-s69"/>
+                            <constraint firstItem="kbK-cF-ouD" firstAttribute="trailing" secondItem="Bzz-ni-6U0" secondAttribute="trailing" constant="35" id="xdt-za-U4k"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" image="person" catalog="system" id="eWQ-S0-mTn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o28-4T-Gsg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-877" y="-423"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="udJ-vd-9hP">
+            <objects>
+                <tabBarController id="vJq-27-hrR" customClass="TabBarController" customModule="desafioTabbar" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="PaE-b4-F8k">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="yws-rh-bS2" kind="relationship" relationship="viewControllers" id="HHR-13-hD7"/>
+                        <segue destination="UX5-zq-U6r" kind="relationship" relationship="viewControllers" id="YpJ-Ma-KKc"/>
+                        <segue destination="fO7-nr-39Q" kind="relationship" relationship="viewControllers" id="jPX-mC-zA7"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gRr-6j-Kax" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1784" y="-109"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="person" catalog="system" width="128" height="121"/>
+        <image name="person.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="phone" catalog="system" width="128" height="115"/>
+        <image name="trash" catalog="system" width="117" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>

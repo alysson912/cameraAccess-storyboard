@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		382C4604292D664E00672A9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382C4603292D664E00672A9D /* AppDelegate.swift */; };
 		382C4606292D664E00672A9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382C4605292D664E00672A9D /* SceneDelegate.swift */; };
-		382C4608292D664E00672A9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382C4607292D664E00672A9D /* ViewController.swift */; };
+		382C4608292D664E00672A9D /* Tela01VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382C4607292D664E00672A9D /* Tela01VC.swift */; };
 		382C460B292D664E00672A9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 382C4609292D664E00672A9D /* Main.storyboard */; };
 		382C460D292D664F00672A9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 382C460C292D664F00672A9D /* Assets.xcassets */; };
 		382C4610292D664F00672A9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 382C460E292D664F00672A9D /* LaunchScreen.storyboard */; };
+		382C4618292D681B00672A9D /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382C4617292D681B00672A9D /* TabBarController.swift */; };
+		382C461A292D6CEF00672A9D /* Tela02VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382C4619292D6CEF00672A9D /* Tela02VC.swift */; };
+		382C461C292D6D1500672A9D /* Tela03VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382C461B292D6D1500672A9D /* Tela03VC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		382C4600292D664E00672A9D /* desafioTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = desafioTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		382C4603292D664E00672A9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		382C4605292D664E00672A9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		382C4607292D664E00672A9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		382C4607292D664E00672A9D /* Tela01VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela01VC.swift; sourceTree = "<group>"; };
 		382C460A292D664E00672A9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		382C460C292D664F00672A9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		382C460F292D664F00672A9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		382C4611292D664F00672A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		382C4617292D681B00672A9D /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		382C4619292D6CEF00672A9D /* Tela02VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela02VC.swift; sourceTree = "<group>"; };
+		382C461B292D6D1500672A9D /* Tela03VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela03VC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +64,14 @@
 			children = (
 				382C4603292D664E00672A9D /* AppDelegate.swift */,
 				382C4605292D664E00672A9D /* SceneDelegate.swift */,
-				382C4607292D664E00672A9D /* ViewController.swift */,
 				382C4609292D664E00672A9D /* Main.storyboard */,
 				382C460C292D664F00672A9D /* Assets.xcassets */,
 				382C460E292D664F00672A9D /* LaunchScreen.storyboard */,
 				382C4611292D664F00672A9D /* Info.plist */,
+				382C4617292D681B00672A9D /* TabBarController.swift */,
+				382C4607292D664E00672A9D /* Tela01VC.swift */,
+				382C4619292D6CEF00672A9D /* Tela02VC.swift */,
+				382C461B292D6D1500672A9D /* Tela03VC.swift */,
 			);
 			path = desafioTabbar;
 			sourceTree = "<group>";
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				382C4608292D664E00672A9D /* ViewController.swift in Sources */,
+				382C4608292D664E00672A9D /* Tela01VC.swift in Sources */,
+				382C4618292D681B00672A9D /* TabBarController.swift in Sources */,
+				382C461A292D6CEF00672A9D /* Tela02VC.swift in Sources */,
+				382C461C292D6D1500672A9D /* Tela03VC.swift in Sources */,
 				382C4604292D664E00672A9D /* AppDelegate.swift in Sources */,
 				382C4606292D664E00672A9D /* SceneDelegate.swift in Sources */,
 			);
