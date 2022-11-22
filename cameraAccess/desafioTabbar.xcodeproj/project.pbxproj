@@ -7,27 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		38FE3217292D652D004E7F58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FE3216292D652D004E7F58 /* AppDelegate.swift */; };
-		38FE3219292D652D004E7F58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FE3218292D652D004E7F58 /* SceneDelegate.swift */; };
-		38FE321B292D652D004E7F58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FE321A292D652D004E7F58 /* ViewController.swift */; };
-		38FE321E292D652D004E7F58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38FE321C292D652D004E7F58 /* Main.storyboard */; };
-		38FE3220292D652D004E7F58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38FE321F292D652D004E7F58 /* Assets.xcassets */; };
-		38FE3223292D652D004E7F58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38FE3221292D652D004E7F58 /* LaunchScreen.storyboard */; };
+		382C4604292D664E00672A9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382C4603292D664E00672A9D /* AppDelegate.swift */; };
+		382C4606292D664E00672A9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382C4605292D664E00672A9D /* SceneDelegate.swift */; };
+		382C4608292D664E00672A9D /* Tela01VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382C4607292D664E00672A9D /* Tela01VC.swift */; };
+		382C460B292D664E00672A9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 382C4609292D664E00672A9D /* Main.storyboard */; };
+		382C460D292D664F00672A9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 382C460C292D664F00672A9D /* Assets.xcassets */; };
+		382C4610292D664F00672A9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 382C460E292D664F00672A9D /* LaunchScreen.storyboard */; };
+		382C4618292D681B00672A9D /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382C4617292D681B00672A9D /* TabBarController.swift */; };
+		382C461A292D6CEF00672A9D /* Tela02VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382C4619292D6CEF00672A9D /* Tela02VC.swift */; };
+		382C461C292D6D1500672A9D /* Tela03VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382C461B292D6D1500672A9D /* Tela03VC.swift */; };
+		384C61D6292D73CF00FD5711 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384C61D4292D73CF00FD5711 /* CustomTableViewCell.swift */; };
+		384C61D7292D73CF00FD5711 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 384C61D5292D73CF00FD5711 /* CustomTableViewCell.xib */; };
+		384C61DA292D76DF00FD5711 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384C61D9292D76DF00FD5711 /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		38FE3213292D652D004E7F58 /* cameraAccess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cameraAccess.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		38FE3216292D652D004E7F58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		38FE3218292D652D004E7F58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		38FE321A292D652D004E7F58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		38FE321D292D652D004E7F58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		38FE321F292D652D004E7F58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		38FE3222292D652D004E7F58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		38FE3224292D652D004E7F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		382C4600292D664E00672A9D /* desafioTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = desafioTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		382C4603292D664E00672A9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		382C4605292D664E00672A9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		382C4607292D664E00672A9D /* Tela01VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela01VC.swift; sourceTree = "<group>"; };
+		382C460A292D664E00672A9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		382C460C292D664F00672A9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		382C460F292D664F00672A9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		382C4611292D664F00672A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		382C4617292D681B00672A9D /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		382C4619292D6CEF00672A9D /* Tela02VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela02VC.swift; sourceTree = "<group>"; };
+		382C461B292D6D1500672A9D /* Tela03VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela03VC.swift; sourceTree = "<group>"; };
+		384C61D4292D73CF00FD5711 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		384C61D5292D73CF00FD5711 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		384C61D9292D76DF00FD5711 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		38FE3210292D652D004E7F58 /* Frameworks */ = {
+		382C45FD292D664E00672A9D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +49,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		38FE320A292D652D004E7F58 = {
+		382C45F7292D664E00672A9D = {
 			isa = PBXGroup;
 			children = (
-				38FE3215292D652D004E7F58 /* cameraAccess */,
-				38FE3214292D652D004E7F58 /* Products */,
+				382C4602292D664E00672A9D /* desafioTabbar */,
+				382C4601292D664E00672A9D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		38FE3214292D652D004E7F58 /* Products */ = {
+		382C4601292D664E00672A9D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				38FE3213292D652D004E7F58 /* cameraAccess.app */,
+				382C4600292D664E00672A9D /* desafioTabbar.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		38FE3215292D652D004E7F58 /* cameraAccess */ = {
+		382C4602292D664E00672A9D /* desafioTabbar */ = {
 			isa = PBXGroup;
 			children = (
-				38FE3216292D652D004E7F58 /* AppDelegate.swift */,
-				38FE3218292D652D004E7F58 /* SceneDelegate.swift */,
-				38FE321A292D652D004E7F58 /* ViewController.swift */,
-				38FE321C292D652D004E7F58 /* Main.storyboard */,
-				38FE321F292D652D004E7F58 /* Assets.xcassets */,
-				38FE3221292D652D004E7F58 /* LaunchScreen.storyboard */,
-				38FE3224292D652D004E7F58 /* Info.plist */,
+				384C61D8292D768900FD5711 /* Model */,
+				384C61D3292D73AB00FD5711 /* Cell */,
+				382C4603292D664E00672A9D /* AppDelegate.swift */,
+				382C4605292D664E00672A9D /* SceneDelegate.swift */,
+				382C4609292D664E00672A9D /* Main.storyboard */,
+				382C460C292D664F00672A9D /* Assets.xcassets */,
+				382C460E292D664F00672A9D /* LaunchScreen.storyboard */,
+				382C4611292D664F00672A9D /* Info.plist */,
+				382C4617292D681B00672A9D /* TabBarController.swift */,
+				382C4607292D664E00672A9D /* Tela01VC.swift */,
+				382C4619292D6CEF00672A9D /* Tela02VC.swift */,
+				382C461B292D6D1500672A9D /* Tela03VC.swift */,
 			);
-			path = cameraAccess;
+			path = desafioTabbar;
+			sourceTree = "<group>";
+		};
+		384C61D3292D73AB00FD5711 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				384C61D4292D73CF00FD5711 /* CustomTableViewCell.swift */,
+				384C61D5292D73CF00FD5711 /* CustomTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		384C61D8292D768900FD5711 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				384C61D9292D76DF00FD5711 /* Profile.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		38FE3212292D652D004E7F58 /* cameraAccess */ = {
+		382C45FF292D664E00672A9D /* desafioTabbar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 38FE3227292D652D004E7F58 /* Build configuration list for PBXNativeTarget "cameraAccess" */;
+			buildConfigurationList = 382C4614292D664F00672A9D /* Build configuration list for PBXNativeTarget "desafioTabbar" */;
 			buildPhases = (
-				38FE320F292D652D004E7F58 /* Sources */,
-				38FE3210292D652D004E7F58 /* Frameworks */,
-				38FE3211292D652D004E7F58 /* Resources */,
+				382C45FC292D664E00672A9D /* Sources */,
+				382C45FD292D664E00672A9D /* Frameworks */,
+				382C45FE292D664E00672A9D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = cameraAccess;
-			productName = cameraAccess;
-			productReference = 38FE3213292D652D004E7F58 /* cameraAccess.app */;
+			name = desafioTabbar;
+			productName = desafioTabbar;
+			productReference = 382C4600292D664E00672A9D /* desafioTabbar.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		38FE320B292D652D004E7F58 /* Project object */ = {
+		382C45F8292D664E00672A9D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					38FE3212292D652D004E7F58 = {
+					382C45FF292D664E00672A9D = {
 						CreatedOnToolsVersion = 14.1;
 					};
 				};
 			};
-			buildConfigurationList = 38FE320E292D652D004E7F58 /* Build configuration list for PBXProject "cameraAccess" */;
+			buildConfigurationList = 382C45FB292D664E00672A9D /* Build configuration list for PBXProject "desafioTabbar" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +144,61 @@
 				en,
 				Base,
 			);
-			mainGroup = 38FE320A292D652D004E7F58;
-			productRefGroup = 38FE3214292D652D004E7F58 /* Products */;
+			mainGroup = 382C45F7292D664E00672A9D;
+			productRefGroup = 382C4601292D664E00672A9D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				38FE3212292D652D004E7F58 /* cameraAccess */,
+				382C45FF292D664E00672A9D /* desafioTabbar */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		38FE3211292D652D004E7F58 /* Resources */ = {
+		382C45FE292D664E00672A9D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38FE3223292D652D004E7F58 /* LaunchScreen.storyboard in Resources */,
-				38FE3220292D652D004E7F58 /* Assets.xcassets in Resources */,
-				38FE321E292D652D004E7F58 /* Main.storyboard in Resources */,
+				382C4610292D664F00672A9D /* LaunchScreen.storyboard in Resources */,
+				382C460D292D664F00672A9D /* Assets.xcassets in Resources */,
+				384C61D7292D73CF00FD5711 /* CustomTableViewCell.xib in Resources */,
+				382C460B292D664E00672A9D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		38FE320F292D652D004E7F58 /* Sources */ = {
+		382C45FC292D664E00672A9D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38FE321B292D652D004E7F58 /* ViewController.swift in Sources */,
-				38FE3217292D652D004E7F58 /* AppDelegate.swift in Sources */,
-				38FE3219292D652D004E7F58 /* SceneDelegate.swift in Sources */,
+				382C4608292D664E00672A9D /* Tela01VC.swift in Sources */,
+				384C61DA292D76DF00FD5711 /* Profile.swift in Sources */,
+				382C4618292D681B00672A9D /* TabBarController.swift in Sources */,
+				382C461A292D6CEF00672A9D /* Tela02VC.swift in Sources */,
+				384C61D6292D73CF00FD5711 /* CustomTableViewCell.swift in Sources */,
+				382C461C292D6D1500672A9D /* Tela03VC.swift in Sources */,
+				382C4604292D664E00672A9D /* AppDelegate.swift in Sources */,
+				382C4606292D664E00672A9D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		38FE321C292D652D004E7F58 /* Main.storyboard */ = {
+		382C4609292D664E00672A9D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				38FE321D292D652D004E7F58 /* Base */,
+				382C460A292D664E00672A9D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		38FE3221292D652D004E7F58 /* LaunchScreen.storyboard */ = {
+		382C460E292D664F00672A9D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				38FE3222292D652D004E7F58 /* Base */,
+				382C460F292D664F00672A9D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +206,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		38FE3225292D652D004E7F58 /* Debug */ = {
+		382C4612292D664F00672A9D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +266,7 @@
 			};
 			name = Debug;
 		};
-		38FE3226292D652D004E7F58 /* Release */ = {
+		382C4613292D664F00672A9D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,7 +320,7 @@
 			};
 			name = Release;
 		};
-		38FE3228292D652D004E7F58 /* Debug */ = {
+		382C4615292D664F00672A9D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -289,7 +329,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B4R97N34U3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = cameraAccess/Info.plist;
+				INFOPLIST_FILE = desafioTabbar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -300,7 +340,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.a1.cameraAccess;
+				PRODUCT_BUNDLE_IDENTIFIER = com.a1.desafioTabbar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -311,7 +351,7 @@
 			};
 			name = Debug;
 		};
-		38FE3229292D652D004E7F58 /* Release */ = {
+		382C4616292D664F00672A9D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -320,7 +360,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B4R97N34U3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = cameraAccess/Info.plist;
+				INFOPLIST_FILE = desafioTabbar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -331,7 +371,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.a1.cameraAccess;
+				PRODUCT_BUNDLE_IDENTIFIER = com.a1.desafioTabbar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -345,25 +385,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		38FE320E292D652D004E7F58 /* Build configuration list for PBXProject "cameraAccess" */ = {
+		382C45FB292D664E00672A9D /* Build configuration list for PBXProject "desafioTabbar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				38FE3225292D652D004E7F58 /* Debug */,
-				38FE3226292D652D004E7F58 /* Release */,
+				382C4612292D664F00672A9D /* Debug */,
+				382C4613292D664F00672A9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		38FE3227292D652D004E7F58 /* Build configuration list for PBXNativeTarget "cameraAccess" */ = {
+		382C4614292D664F00672A9D /* Build configuration list for PBXNativeTarget "desafioTabbar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				38FE3228292D652D004E7F58 /* Debug */,
-				38FE3229292D652D004E7F58 /* Release */,
+				382C4615292D664F00672A9D /* Debug */,
+				382C4616292D664F00672A9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 38FE320B292D652D004E7F58 /* Project object */;
+	rootObject = 382C45F8292D664E00672A9D /* Project object */;
 }
