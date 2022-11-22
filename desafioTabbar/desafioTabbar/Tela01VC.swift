@@ -44,6 +44,7 @@ class Tela01VC: UIViewController {
     
     @IBAction func tappedAddButton(_ sender: UIButton) {
         data.append(Profile(name: nameTextField.text ?? "", photo: profileImageView.image ?? UIImage()))
+        nameTextField.text = ""
         tableView.reloadData()
     }
      
@@ -52,6 +53,7 @@ class Tela01VC: UIViewController {
         tableView.dataSource = self
         // register
         tableView.register(CustomTableViewCell.nib(), forCellReuseIdentifier: CustomTableViewCell.identifier)
+        
         
     }
 }
